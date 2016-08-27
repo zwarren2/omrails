@@ -1,6 +1,9 @@
-Omrails::Application.routes.draw do
+  Omrails::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
+
+    match '/home' => 'pages#home'
+    match '/about' => 'pages#about'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
