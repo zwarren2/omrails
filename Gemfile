@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.22'
+gem 'rails', '~> 4.2'
 gem 'jquery-rails'
 
 	
@@ -16,9 +16,9 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-	gem 'bootstrap-sass', '~> 3.3.6'
+  gem 'sass-rails'
+  gem 'coffee-rails'  #, '~> 3.2.1'
+	gem 'bootstrap-sass'  #, '~> 3.3.6'
 	
 #Not sure why or if i need any of these? Sprockets may already be here and isnt listed on the bootstrap site.
   #gem 'sprockets', '~> 2.0'
