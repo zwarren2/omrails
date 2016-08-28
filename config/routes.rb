@@ -1,5 +1,4 @@
   Omrails::Application.routes.draw do
-    root 'application#hello'
     
     get "static_pages/home"
 
