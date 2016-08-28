@@ -1,7 +1,9 @@
   Omrails::Application.routes.draw do
-  get "static_pages/home"
+    root 'application#hello'
+    
+    get "static_pages/home"
 
-  get "static_pages/about"
+    get "static_pages/about"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
