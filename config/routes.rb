@@ -1,4 +1,6 @@
   Omrails::Application.routes.draw do
+# see http://guides.rubyonrails.org/routing.html
+  Root 'application#hello'    
     
     get "static_pages/home"
 
